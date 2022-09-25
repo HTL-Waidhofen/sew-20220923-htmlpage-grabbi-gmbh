@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORTNITE</title>
-    <link rel="stylesheet" href="Styles.css"/>
+    <link rel="stylesheet" href="StylesHome.css"/>
 </head>
 <body>
   <nav>
@@ -16,7 +16,7 @@
       <a href="karte.html">Karte</a>
       <div class="animation start-home"></div>
   </nav>
-<img src="fortnitelogo.png" width="300px";>
+<img id="logo" src="fortnitelogo.png" width="300px";>
 <p></p>
 <article>
 Fortnite ist ein Koop-Survival-Shooter, der von People Can Fly und Epic Games <br>
@@ -38,12 +38,21 @@ für die Xbox Series und PlayStation 5 wurde an deren jeweiligen Releasetagen ve
 
     <h1>Newsletter</h1>    
     <p id="newsletter">
-        E-Mail: <input type="text"> <br>
-        Name: <input type="text">   <br>
-        Sirname: <input type="text">    <br>
-        Birthyear (min age 18): <input type="text"> <br>  
-        Do you accept the terms: <input type="checkbox"> <br>
-    </p>
+      <form>
+        <label for="firstName" class="first-name">Vorname:</label>
+        <input id="firstName" type="text"><br><br>
+     
+        <label for="lastName" class="last-name">Nachname:</label>
+        <input id="lastName" type="text"><br><br>
 
+        <label for="email" class="email">E-Mail:</label>
+        <input id="email" type="text"><br><br>
+
+        <label for="birthday" class="birthday">Geburtstag:</label>
+        <input id="brthday" type="date"><br><br>
+
+    </form>
+      Accept the terms: <input type="checkbox"><br>
+    </p>
 </body>
 </html>
