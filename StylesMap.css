@@ -77,5 +77,5 @@ nav a:nth-child(5):hover~.animation{
 #map{
     width: 750px;
     height: 750px;
-    margin: 40px;
+    margin: 50px;
 }
