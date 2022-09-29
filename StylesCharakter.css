@@ -6,7 +6,7 @@ body{
 nav{
     position: relative;
     margin: 10px auto 0;
-    width: 1200px;
+    width: 1400px;
     height: 50px;
     background: #34495e;
     border-radius: 8px;
@@ -81,6 +81,14 @@ nav a:nth-child(6){
 nav a:nth-child(6):hover~.animation{
     width: 200px;
     left: 1000px;
+}
+nav a:nth-child(7){
+    width: 200px;
+}
+
+nav a:nth-child(7):hover~.animation{
+    width: 200px;
+    left: 1200px;
 }
 #Marshmellow{
     width: 150px;
