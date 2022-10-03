@@ -35,7 +35,7 @@ nav .animation{
     transition: all .5s ease 0s;
 }
 nav a:nth-child(1){
-    width: 200px;
+    width: 180px;
 }
 
 nav .start-home, a:nth-child(1):hover~.animation{
