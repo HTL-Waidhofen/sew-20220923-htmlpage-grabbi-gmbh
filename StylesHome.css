@@ -136,7 +136,7 @@ a:link {
     text-decoration: none;
   }
   a:hover {
-    color: pink;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
   }
