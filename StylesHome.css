@@ -123,3 +123,26 @@ label{
     float: left;
     width: 150px
 }
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
